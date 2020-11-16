@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="signup.css">
+    <script type="text/javascript">
+
+        function keyPressed(){
+        var key = event.keyCode || event.charCode || event.which ;
+        return key;
+        }
+        
+        </script>
+</head>
+<body background="images/kadha3.jpg" >
+    <header>
+        <img src="images/logo.jpg" alt="logo" width="100" height="63">
+        <div class="head-tag">
+            <a href="index.html">Home</a>
+            <a href="district.html">Districts</a>
+            <a href="#">About</a>
+            <a href="login.html">Log In</a>
+            <a href="#">Sign Up</a>
+        </div>
+        <!-- signupform -->
+        <!-- <div class="container">
+            <div class="header">
+                
+            </div> -->
+            <form id="form" action="index.html" class="form" onclick="return validateform() && passwordChanged() ">
+                <div class="signup">
+                <h2>User Sign Up</h2><br>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="qwerty12" id="username" onKeyDown="javascript: var keycode = keyPressed(event); if(keycode==32){ return false; }" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="abc@example.com" id="email" onKeyDown="javascript: var keycode = keyPressed(event); if(keycode==32){ return false; }" required />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="number" placeholder="Phone number" id="phonenumber" onKeyDown="javascript: var keycode = keyPressed(event); if(keycode==32){ return false; }" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control" onclick="passwordChanged()">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password" onKeyDown="javascript: var keycode = keyPressed(event); if(keycode==32){ return false; }" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control" onclick="passwordChanged()">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" placeholder="Re-enter Password" id="password2" onKeyDown="javascript: var keycode = keyPressed(event); if(keycode==32){ return false; }" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    <span id="strength"></span>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 270px;">Submit</button><br>
+                <div class="signup-misc">
+                    <a href="login.html">Already a member?
+                   </a>
+               </div>
+                </div>
+            </form>
+        
+
+        <!-- /signupform -->
+       <div id="foot">
+          <footer>
+            <h4>Copyright@2020</h4>
+          </footer>
+        </div>
+    
+        </body>
+        </html>
+    </header>
+    <script src="signup.js"></script>
+</body>
+</html>

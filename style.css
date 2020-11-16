@@ -1,0 +1,543 @@
+* {
+padding:0px;
+margin: 0px;
+}
+body{
+    background-size:100%;
+}
+header{
+background-color:darkred;
+    height: 4em;
+}
+
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:whitesmoke;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+.head-tag a:hover{
+    background-color:rgb(10, 134, 6);
+    color:black;
+    transition:0.5s ease-in-out;
+    text-decoration: none;
+}
+.head{
+    color:"black";
+    padding-top: 30px;
+}
+div.para h1{
+  text-align: center;
+  color:black;
+  padding-top: 100px;
+}
+div.para h3{
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color:rgb(7, 0, 7);
+  letter-spacing: 1px;
+  line-height: 40px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(2px);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 1.6em;
+    margin-top: 30%;
+}
+.login{
+  float: right ;
+  border: 2px solid green;
+  background: darkcyan;
+  height: 15em;
+  margin-top: 5%;
+  margin-right:10%;
+  margin-left:50%;
+  padding: 30px;
+}
+.login h2{
+text-align: center;
+}
+.login input{
+  height: 1.5em;
+}
+.login #login-button{
+  width: 30%;
+  height: 1.7em;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(4, 49, 65);
+  margin-left: 70px;
+}
+.login-misc a{
+  color:whitesmoke;
+  text-decoration: none;
+}
+.login-misc a:hover{
+  background-color:rgb(10, 134, 6);
+  color:black;
+  transition:0.5s ease-in-out;
+  text-decoration: none;
+}
+#foot footer{
+background-color: black;
+text-align: center;
+color: white;
+height: 1.6em;
+margin-top: 40%;
+}
+/* /login form */
+
+/* signup form */
+
+
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height:45%;
+}
+div.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 1.6em;
+    margin-top: 105%;
+}
+div.footer1{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 1.6em;
+  margin-top: 105%;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+.hero-image13{
+  background-image: url("images/trvbg.jpg");
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.tvm h2{
+    text-align: left;
+    color: black;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+div.tvm p{
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(2px);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    
+}
+/* div.footer2{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 1.6em;
+  margin-top:20px;
+} */
+.hero-image {
+    background-image: url("images/klm1.jpg");
+    background-color: #cccccc;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+div.klm h2{
+    text-align: left;
+    color:black;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+div.klm p{
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(2px);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+div.mymargin{
+    margin-left: 30em;
+    width: 40em;
+    height: 30em;
+}
+
+  div.hero-image1{
+    background-image: url("images/ptm2.jpg");
+    background-color: #cccccc;
+    height: 960px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  div.ptm h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.ptm p{
+    background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(2px);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+  div.hero-image2{
+    background-image: url("images/apy1.jpg");
+    background-color: #cccccc;
+    height: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  div.apy h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.apy p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+div.hero-image3{
+    background-image: url("images/idk1.jpg");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.idk h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.idk p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+div.hero-image4{
+    background-image: url("images/kerala12.jpg");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.ktm h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.ktm p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+div.hero-image5{
+    background-image: url("images/ekm1.jpg");
+    background-color: #cccccc;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.ekm h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.ekm p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image6{
+    background-image: url("images/tsrbg.jpg");
+    background-color: #cccccc;
+    height: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.tsr h2{
+    text-align: left;
+    color:rgb(172, 20, 20);
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.tsr p{
+    color:rgb(7, 7, 7);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image7{
+    background-image: url("images/pkdbg1.jpg");
+    background-color: black;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.pkd h2{
+    text-align: left;
+    color:black;
+    padding-top: 60px;
+    margin-left: 20px;
+  }
+  div.pkd p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image8{
+    background-image: url("images/mlp1.jpg");
+    background-color: black;
+    height: 890px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.mlp h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.mlp p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image9{
+    background-image: url("images/clt2.jpg");
+    background-color: black;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.clt h2{
+    text-align: left;
+    color:black;
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.clt p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image10{
+    background-image: url("images/wayanadchuram.jpg");
+    background-color: black;
+    height: 910px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.wyd h2{
+    text-align: left;
+    color:rgb(19, 18, 18);
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.wyd p{
+    color:rgb(15, 15, 15);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(2px);
+}
+
+div.hero-image11{
+    background-image: url("images/knrbg.jpg");
+    background-color:whitesmoke;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.knr h2{
+    text-align: left;
+    color:rgb(12, 11, 11);
+    padding-top: 70px;
+    margin-left: 20px;
+  }
+  div.knr p{
+    color:rgb(8, 8, 8);
+   display: block;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(1px);
+}
+
+div.hero-image12{
+    background-image: url("images/ksdbg2.jpg");
+    background-color: black;
+    height: 910px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+div.ksd h2{
+    text-align:left;
+    padding-left: 50px;
+    color:black;
+    padding-top: 35px;
+    margin-left: 50px;
+  }
+  div.ksd p{
+    color:black;
+   display: block;
+    text-align: left;
+    padding-left: 35px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(3px);
+}
+#carousel h5{
+  color: black;
+  margin-left: 100px;
+  width: 5cm;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(2px);
+}
+#ilav h6{
+  color: black;
+  margin-left: 100px;
+  width: 6cm;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(2px);
+}
+.places h3{
+  text-align: center;
+  background-color:  rgba(19, 177, 19, 1);
+  color: rgb(0, 0, 0);
+}
